@@ -88,7 +88,7 @@ h1, h2, h3 {
 
 /* Banner */
 .hero {
-  background-image: url("img/banner.jpg"); /* agregá tu imagen después */
+  background-image: url("img/banner.jpg"); 
   background-size: cover;
   background-position: center;
   height: 70vh;
