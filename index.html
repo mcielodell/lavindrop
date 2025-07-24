@@ -6,32 +6,26 @@
   <title>LAV IND ROP</title>
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="script.js">
 </head>
 <body>
 
   <!-- Encabezado -->
-  <header class="top-bar">
-    <div class="logo">
-      <img src="img/logo.jpeg" alt="Logo de LAV IND ROP" />
-    </div>
-    <form class="search-form" action="#" method="get">
-      <input type="text" placeholder="Buscar..." name="buscador" />
-      <button type="submit">Buscar</button>
-    </form>
-    <div class="account-buttons">
-      <button>Crear cuenta</button>
-      <button>Ingresar</button>
-    </div>
-  </header>
+ <header class="top-bar logo-centro">
+  <div class="logo">
+    <img src="img/logo.jpeg" alt="Logo de LAV IND ROP" />
+  </div>
+</header>
+
 
   <!-- menú de navegación -->
   <nav class="main-nav">
     <div class="menu-toggle" id="menu-toggle">☰</div>
     <ul id="nav-links">
       <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#servicios">Servicios</a></li>
       <li><a href="#nosotros">Quiénes somos</a></li>
       <li><a href="#preguntas">Preguntas frecuentes</a></li>
+      <li><a href="#servicios">Servicios</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
@@ -68,53 +62,13 @@
     </div>
   </section>
 
-  <section id="servicios" class="servicios">
-  <h2>Servicios</h2>
-
-  <div class="servicios-grid">
-    <div class="servicio">
-      <h3>Lavado</h3>
-      <p>Lavado profesional para distintos tipos de textiles:</p>
-      <ul>
-        <li>Ropa de trabajo</li>
-        <li>Ropa de todos los días</li>
-        <li>Juego toalla, toallón</li>
-        <li>Juego sábanas</li>
-        <li>Acolchados*</li>
-        <li>Alfombras</li>
-      </ul>
-      <p class="nota">*Indicar cantidad de plazas y tipo de material.</p>
-    </div>
-
-    <div class="servicio">
-      <h3>Secado</h3>
-      <p>Secado rápido y eficiente con maquinaria industrial.</p>
-      <ul>
-        <li>Ropa diaria y laboral</li>
-        <li>Textiles grandes (acolchados, cortinas)</li>
-        <li>Toallas, batas y alfombras</li>
-      </ul>
-    </div>
-
-    <div class="servicio">
-      <h3>Planchado</h3>
-      <p>Planchado profesional, prolijo y listo para usar.</p>
-      <ul>
-        <li>Camisas, uniformes</li>
-        <li>Sábanas</li>
-        <li>Toallas y textiles hoteleros</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- Quiénes somos -->
+  <!-- Quiénes somos -->
 <section id="nosotros" class="nosotros">
   <h2>Quiénes somos</h2>
   <div class="nosotros-contenido">
     <p>
       En <strong>LAV IND ROP</strong> nos dedicamos al lavado industrial de ropa con compromiso, eficiencia y tecnología de última generación. 
-      Atendemos a empresas, hoteles, clínicas y particulares, ofreciendo un servicio personalizado y puntual.
+      Atendemos a empresas, hoteles y particulares, ofreciendo un servicio personalizado y puntual.
     </p>
     <p>
       Contamos con más de 6 años de experiencia en el rubro, y un equipo humano capacitado para garantizar el cuidado de cada prenda. 
@@ -122,6 +76,84 @@
     </p>
   </div>
 </section>
+
+  <!-- Preguntas frecuentes -->
+<section id="preguntas" class="preguntas">
+  <h2>Preguntas frecuentes</h2>
+  <div class="preguntas-contenido">
+    
+    <div class="preg-frecuentes">
+      <h3>¿Cuáles son los servicios que prestan?</h3>
+      <p>Ofrecemos lavado, secado, planchado y tratamientos especiales para diferentes tipos de textiles.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Cuál es el tiempo estimado para que mi pedido esté listo?</h3>
+      <p>El lavado y secado suelen demorar entre 24 y 48 horas. Los servicios especiales pueden tardar más.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Hacen retiros y envíos a domicilio?</h3>
+      <p>Sí, contamos con servicio de retiro y entrega. Consultanos por zonas y disponibilidad.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Dónde puedo ver los precios?</h3>
+      <p>Podés consultarnos a través del formulario o por WhatsApp. El precio varía según el tipo de prenda y servicio.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Dónde están ubicados?</h3>
+      <p>Estamos en Cipolletti, Río Negro. Te enviamos ubicación exacta por WhatsApp o podés encontrarnos en Google Maps.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Puedo dejar indicaciones especiales para mis prendas?</h3>
+      <p>Sí, en el formulario podés escribirnos cualquier aclaración sobre el cuidado de tus prendas.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Atienden por turnos?</h3>
+      <p>Trabajamos con horarios fijos, pero también podés coordinar un turno por WhatsApp.</p>
+    </div>
+
+    <div class="preg-frecuentes">
+      <h3>¿Puedo abonar con tarjeta o solo efectivo?</h3>
+      <p>Aceptamos efectivo, transferencias y algunas tarjetas. Consultá por medios de pago disponibles.</p>
+    </div>
+
+  </div>
+</section>
+
+  
+  <!-- Servicios -->
+  <section id="servicios" class="servicios">
+  <h2>Servicios</h2>
+
+  <form id="whatsapp-form" class="form-servicio">
+    <div class="checkboxes">
+      <label><input type="checkbox" name="trabajo" value="Lavado"> Lavado</label>
+      <label><input type="checkbox" name="trabajo" value="Secado"> Secado</label>
+      <label><input type="checkbox" name="trabajo" value="Planchado"> Planchado</label>
+    </div>
+
+    <label for="prenda">Tipo de prenda</label>
+    <input type="text" id="prenda" name="prenda" placeholder="Ej: toallas, acolchados, ropa laboral" required>
+
+    <label for="material">Material</label>
+    <input type="text" id="material" name="material" placeholder="Ej: algodón, polar, sintético" required>
+
+    <label for="cantidad">Cantidad</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+    <label for="observaciones">Observaciones</label>
+    <textarea id="observaciones" name="observaciones" placeholder="Opcional"></textarea>
+
+    <button type="submit" id="whatsapp-btn">Consultar por WhatsApp</button>
+  </form>
+</section>
+
+
 
 
   <!-- Footer -->
