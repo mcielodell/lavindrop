@@ -122,7 +122,7 @@ h1, h2, h3 {
 
 /* Banner */
 .hero {
-  background-image: url("img/banner.jpg"); 
+  background-image: url("img/lavarropabanner.jpg"); 
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -173,6 +173,66 @@ h1, h2, h3 {
   font-size: 14px;
   margin: 0;
 }
+
+/* Categorías */
+.categorias {
+  padding: 40px 20px;
+  background-color: #f4f8fb;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.categorias h2 {
+  font-size: 2.4em;
+  margin-bottom: 40px;
+  color: #004080;
+}
+
+.categoria-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 1rem;
+}
+
+.categoria:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.categoria img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 1rem;
+  background-color: #003f6b; /* azul celeste */
+  padding: 10px;
+  border-radius: 50%;
+  filter: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.categoria span {
+  padding: 1rem 0.5rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+}
+
 
 /* Sección preguntas frecuentes */
 
@@ -332,6 +392,8 @@ h1, h2, h3 {
   font-style: italic;
 }
 
+/*Quienes somos*/ 
+
 .nosotros {
   padding: 40px 20px;
   background-color: #f4f8fb;
@@ -353,15 +415,28 @@ h1, h2, h3 {
   text-align: left;
 }
 
+.mini-banner {
+  background-image: url("img/manibannerr.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* Más bajo que un hero normal */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-attachment: fixed;
+
+}
+
 
 /*Contacto */
 
 /* Sección contacto */
 .contacto {
-  background-color: #f0f0f0;
-  text-align: center;
-  padding: 60px 20px;
+  padding: 40px 20px;
+  background-color: #f4f8fb;
   font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
 
 .contacto h2 {
