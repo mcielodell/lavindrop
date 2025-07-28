@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 📦 Cantidad: ${cantidad}%0A
 📝 Observaciones: ${observaciones || 'Sin observaciones'}`;
 
-    // Número de WhatsApp (REEMPLAZÁ por el real)
+    // Número de WhatsApp 
     const numero = "2934455076"; 
 
     // Enlace WhatsApp
@@ -38,3 +38,5 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open(url, "_blank");
   });
 });
+
+
