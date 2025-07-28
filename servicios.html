@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LAV IND ROP</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+  <header class="top-bar logo-centro">
+    <div class="logo">
+      <a href="index.html"><img src="img/logo.jpeg" alt="Logo" /></a>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Quiénes somos</a></li>
+      <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Servicios -->
+  <section id="servicios" class="servicios">
+  <h2>Servicios</h2>
+
+  <div class="servicios-grid">
+    <div class="servicio">
+      <h3>Lavado</h3>
+      <p>Lavado profesional para distintos tipos de textiles:</p>
+      <ul>
+        <li>Ropa de trabajo</li>
+        <li>Ropa de todos los días</li>
+        <li>Juego toalla, toallón</li>
+        <li>Juego sábanas</li>
+        <li>Acolchados</li>
+        <li>Alfombras</li>
+        <li>Y más!</li>
+      </ul>
+    </div>
+
+    <div class="servicio">
+      <h3>Secado</h3>
+      <p>Secado rápido y eficiente con maquinaria industrial.</p>
+      <ul>
+        <li>Ropa diaria y laboral</li>
+        <li>Textiles grandes (acolchados, cortinas)</li>
+        <li>Toallas, batas y alfombras</li>
+        <li>Y más!</li>
+      </ul>
+    </div>
+
+    <div class="servicio">
+      <h3>Planchado</h3>
+      <p>Planchado profesional, prolijo y listo para usar.</p>
+      <ul>
+        <li>Camisas, uniformes</li>
+        <li>Sábanas</li>
+        <li>Toallas y textiles hoteleros</li>
+        <li>Y más!</li>
+      </ul>
+    </div>
+  </div>
+  <br> <br>
+  <h2>Consultanos!</h2>
+</section>
+
+
+<section> 
+  
+  <form id="whatsapp-form" class="form-servicio">
+    <div class="checkboxes">
+      <label><input type="checkbox" name="trabajo" value="Lavado"> Lavado</label>
+      <label><input type="checkbox" name="trabajo" value="Secado"> Secado</label>
+      <label><input type="checkbox" name="trabajo" value="Planchado"> Planchado</label>
+    </div>
+
+    <label for="prenda">Tipo de prenda</label>
+    <input type="text" id="prenda" name="prenda" placeholder="Ej: toallas, acolchados, ropa laboral" required>
+
+    <label for="material">Material</label>
+    <input type="text" id="material" name="material" placeholder="Ej: algodón, polar, sintético" required>
+
+    <label for="cantidad">Cantidad</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+    <label for="observaciones">Observaciones</label>
+    <textarea id="observaciones" name="observaciones" placeholder="Opcional"></textarea>
+
+    <button type="submit" id="whatsapp-btn">Consultar por WhatsApp</button>
+  </form>
+</section>
+
+<!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>Redes</h3>
+        <p>Instagram | Facebook</p>
+      </div>
+      <div>
+        <h3>Medios de pago</h3>
+        <p>Tarjetas | Transferencia | Efectivo</p>
+      </div>
+      <div>
+        <h3>Servicios</h3>
+        <p>Lavado | Secado | Planchado </p>
+      </div>
+      <div>
+        <h3>Ofertas vigentes</h3>
+        <p> 15% OFF lavando dos o más acolchados</p>
+      </div>
+      
+  </footer>
+
+</body>
+</html>
