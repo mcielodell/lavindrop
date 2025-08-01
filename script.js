@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
 📝 Observaciones: ${observaciones || 'Sin observaciones'}`;
 
     // Número de WhatsApp 
-    const numero = "2934455076"; 
+    const numero = "5492934455076"; 
 
     // Enlace WhatsApp
-    const url = `https://wa.me/${numero}?text=${mensaje}`;
+    const url = `https://wa.me/message/3AUF4OEP7RWMM1${numero}?text=${mensaje}`;
 
     // Abrir WhatsApp
     window.open(url, "_blank");
